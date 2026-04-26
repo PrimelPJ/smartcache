@@ -2,6 +2,9 @@
 
 **Intelligent in-memory caching for Python — LRU/LFU eviction, TTL, thread-safety, decorator API.**
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB)](https://www.python.org/)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)](setup.py)
 
 ---
 
@@ -29,8 +32,8 @@ flowchart TD
     B --> J[StatsCollector\nhits / misses / evictions]
     B --> K[Background Sweep Thread\nauto_expire_interval]
 
-    L[@cached decorator] --> B
-    M[@cached_method decorator] --> B
+    L["@cached decorator"] --> B
+    M["@cached_method decorator"] --> B
 ```
 
 ---
