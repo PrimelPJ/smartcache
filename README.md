@@ -2,10 +2,6 @@
 
 **Intelligent in-memory caching for Python — LRU/LFU eviction, TTL, thread-safety, decorator API.**
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB)](https://www.python.org/)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)](setup.py)
-
 ---
 
 ## Why smartcache?
